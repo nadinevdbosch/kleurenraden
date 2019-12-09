@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kleuren raden</title>
+    <link rel="stylesheet" href="css/kleurenspel.css">
+</head>
+
+<body>
+   
+        <header class="titel">
+            <h1 id="kopTekst">Kan jij de kleurencode raden?</h1>
+            <button id="nieuwSpel">Speel opnieuw</button>
+        </header>
+        
+        
+            <section class="rondjes">
+              
+               <section id="code">
+                   <section class="geheim"><p class="vraagTeken">?</p></section>
+                   <section class="geheim"><p class="vraagTeken">?</p></section>
+                   <section class="geheim"><p class="vraagTeken">?</p></section>
+                   <section class="geheim"><p class="vraagTeken">?</p></section>
+                   <section class="geheim"><p class="vraagTeken">?</p></section>
+               </section>
+               
+               <section id="raadDeCode">
+                   <section class="raden"></section>
+                   <section class="raden"></section>
+                   <section class="raden"></section>
+                   <section class="raden"></section>
+                   <section class="raden"></section>
+               </section>
+               
+               <section id="hoera" class="hidden">
+                   <img src="images/hoera.png" />
+               </section>
+               
+               <section id="jammer" class="hidden">
+                   <img src="images/jammer.png" />
+               </section>
+               
+               <section id="opties">
+                   <button value="0" class="optie blauw" id="pinblauw"></button>
+                   <button value="1" class="optie groen" id="pingroen"></button>
+                   <button value="2" class="optie oranje" id="pinoranje"></button>
+                   <button value="3" class="optie rood" id="pinrood"></button>
+                   <button value="4" class="optie roze" id="pinroze"></button>
+                   <button class="verwijder" id="verwijder">verwijder</button>
+               </section>  
+                     
+                
+                      
+            </section>
+
+
+  <script src="js/kleurenspel.js"></script>
+  
+  
+    
+</body>
+</html>

@@ -1,0 +1,146 @@
+body {
+    background-image: url(../images/background.png);
+}
+
+h1{
+    text-align: center;
+    font-size: 64pt;
+    margin-top: 100px;
+}
+
+#nieuwSpel {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    background-color: yellowgreen;
+    font-size: 12pt;
+    
+    
+}
+
+.rondjes {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    background: black;
+    padding: 10px;
+    
+}
+
+.geheim {
+    float: left;
+    background-color: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    color: black;
+    text-align: center;     
+}
+
+.geheim p {
+    margin-top: 20px;
+    font-size: 42pt;
+}
+
+.raden {
+    float: left;
+    background-color: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+} 
+
+.blauw {
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 165px
+}
+
+.pinblauw{
+    background-color: blue;
+}
+
+.pingroen{
+    background-color: green;
+}
+.pinoranje{
+    background-color: orange;
+}
+.pinrood{
+    background-color: red;
+}
+.pinroze{
+    background-color: hotpink;
+}
+
+
+.groen {
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.oranje {
+    background-color: orange;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.rood {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.roze {
+    background-color: hotpink;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.verwijder {
+    background-color: lightgrey;
+    width: 100px;
+    height: 30px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.resultaat {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    padding: 10px;
+    text-align: center; 
+}
+
+.resultaat img{
+    height:20%;
+    width: 20%;
+}
+
+.hidden  {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
